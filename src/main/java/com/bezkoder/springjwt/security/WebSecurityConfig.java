@@ -54,7 +54,9 @@ public class WebSecurityConfig { // extends WebSecurityConfigurerAdapter {
 
   @Bean
   public PasswordEncoder passwordEncoder() {
+	  System.out.println("hi git ..");
     return new BCryptPasswordEncoder();
+    
   }
   
   @Bean
